@@ -34,7 +34,7 @@
 const std = @import("std");
 
 pub fn main() void {
-    const n: u8 = 50;
+    var n: u8 = 50;
     n = n + 5;
 
     const pi: u8 = 314159;
